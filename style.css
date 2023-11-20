@@ -52,8 +52,19 @@ nav {
     color: white;
   }
 }
-main {
-
+.blau:hover {
+  background-color: #59adf6;
+}
+.rot:hover {
+  background-color: #ff6961;
+}
+.gelb:hover {
+  background-color: #f8f38d;
+  color: black;
+}
+.grün:hover {
+  background-color: #ddd;
+  color: #42d6a4;
 }
 
 section {
@@ -174,6 +185,16 @@ aside {
   margin-left: 2em;
   border-radius: 3px;
 
+  max-height: 53.5em;
+
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  -webkit-scrollbar {
+    display: none;
+  }
   background-color: #ddd;
   img {
     height: 120px;
