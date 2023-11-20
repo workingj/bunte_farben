@@ -111,6 +111,7 @@ article {
     -moz-transition: opacity 1s;
     -webkit-transition: opacity 1s;
     -o-transition: opacity 1s;
+    -webkit-transform: translateZ(0);
   }
   a {
     color: #000;
@@ -172,6 +173,7 @@ ul {
     -moz-transition: opacity 2s;
     -webkit-transition: opacity 2s;
     -o-transition: opacity 2s;
+    -webkit-transform: translateZ(0);
   }
 }
 
