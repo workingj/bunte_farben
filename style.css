@@ -111,7 +111,6 @@ article a {
   -moz-transition: opacity 1s;
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
-  -webkit-transform: translateZ(0);
 }
 article a {
   color: #000;
@@ -155,9 +154,6 @@ ul {
   scrollbar-width: 0;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  -webkit-scrollbar {
-    display: none;
-  }
 }
 
 .clicked h2 {
@@ -173,7 +169,6 @@ ul {
   -moz-transition: opacity 2s;
   -webkit-transition: opacity 2s;
   -o-transition: opacity 2s;
-  -webkit-transform: translateZ(0);
 }
 
 aside {
@@ -194,9 +189,6 @@ aside {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
   background-color: #ddd;
-  -webkit-scrollbar {
-    display: none;
-  }
 }
 aside img {
   height: 120px;
